@@ -1,7 +1,7 @@
 === DesignsLabz Tools ===
 Contributors:       DesignsLabz, Bhavanaditya
 Donate link:        https://github.com/team-designslabz/designslabz-tools
-Tags:               admin, howdy, branding, post label, disable editor
+Tags:               admin, howdy, branding, post label
 Requires at least:  6.1
 Tested up to:       6.8
 Requires PHP:       7.4
