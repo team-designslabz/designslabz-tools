@@ -9,11 +9,13 @@ class Designslabz_Tools_Loader {
 		require_once plugin_dir_path( __FILE__ ) . 'classes/class-change-howdy.php';
 		require_once plugin_dir_path( __FILE__ ) . 'classes/class-change-post-label.php';
 		require_once plugin_dir_path( __FILE__ ) . 'classes/class-disable-editors.php';
+		require_once plugin_dir_path( __FILE__ ) . 'classes/class-limit-upload-size.php';
 
 		// Initialize plugin features
 		new Designslabz_Change_Howdy();
 		new Designslabz_Change_Post_Label();
 		new Designslabz_Admin_Footer();
 		new Designslabz_Disable_Editors();
+		new DesignsLabz_Upload_Size_Limiter();
 	}
 }
